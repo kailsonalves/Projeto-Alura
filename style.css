@@ -3,15 +3,9 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #000000;
-    --fonte-principal: ‘Inter’;
-}.principal {
-    background-image: url(“img/Background.png”);
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
+   
 }
-
-
+ 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -21,15 +15,17 @@ body {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-}
-
-.principal{
-    background-image: url("img/Background.png");
+    margin: 0;:root {
+        --branco-principal: #FFFFFF;
+        --cinza-secundario: #C0C0C0;
+        --botao-azul: #167BF7;
+.principal {
+    background-image: url("./img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
- }
+    align-items: center;
+    text-align: center;
+}
 
 .container {
     height: 100vh;
